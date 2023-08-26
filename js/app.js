@@ -1,5 +1,10 @@
 $('.spoiler').hide();
 $('.spoilerButton').on('click', function () {
   $('.spoilerButton').hide();
-  $('.spoiler').slideToggle(900);
-});
+  $('.spoiler').fadeIn(900);
+}); 
+document.getElementById('input').addEventListener("onclick", function changeColor() {
+  document.getElementById('button').style.backgroundColor = '#60e67d';
+  false,
+    30000;
+  });
